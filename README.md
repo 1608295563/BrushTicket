@@ -8,6 +8,6 @@ function(url) {
   s.src = url; 
   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s); 
 })('file:///D:/ticketscript.js');
-将js代码注入html页面中，打开本地js脚本
+将js代码注入html页面中，打开本地js脚本，控制刷票
 
 参考：https://www.cnblogs.com/imwtr/p/4394281.html
